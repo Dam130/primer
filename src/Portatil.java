@@ -13,6 +13,10 @@ public class Portatil extends Ordenador{
     String pulgadas;
     float precio;
 
+    public float getPrecio() {
+        return precio;
+    }
+
     public String getPulgadas() {
         return pulgadas;
     }
