@@ -21,7 +21,19 @@ public class Ordenador {
     public Ordenador(String marca, String procesador, String apagado){
         System.out.println("\nESTADO DEL ORDENADOR:" +"\nMarca  "+ marca +"\nProcesador  "+procesador+"\n"+apagado);
     }   
-      
+//    static public void mostrarGarantia(){
+//         
+//       System.out.println("Todos los ordenadores tiene de  garantía: "+ garantia);
+//
+//}     
+
+    public String getPantalla() {
+        return pantalla;
+    }
+
+    public boolean isOrdenadorEncendido() {
+        return ordenadorEncendido;
+    }
       
     //metodos
     void encenderOrdenador(){
@@ -58,4 +70,4 @@ public class Ordenador {
 //}
     
     
-}
+}  

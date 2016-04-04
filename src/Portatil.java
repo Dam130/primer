@@ -6,8 +6,20 @@
 
 /**
  *
+<<<<<<< HEAD
  * @author dam130
  */
-public class Portatil {
-    private String pulgadas;
+public class Portatil extends Ordenador{
+    String pulgadas;
+    float precio;
+
+    public String getPulgadas() {
+        return pulgadas;
+    }
+
+    public Portatil(String pulgadas) {
+        this.pulgadas = pulgadas;
+    }
+    
+    
 }
